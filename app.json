@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "profilePage",
-    "slug": "profilePage",
+    "name": "GymRatBeta",
+    "slug": "GymRatBeta",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
