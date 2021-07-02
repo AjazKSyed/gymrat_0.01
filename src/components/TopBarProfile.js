@@ -7,7 +7,7 @@ class TopBarProfile extends React.Component {
       <View style={styles.container}>
         <Text style={styles.header}>Profile</Text>
         <TouchableOpacity style={styles.settingsStyle} activeOpacity={0.5}
-        onPress={()=>{this.props.navigation.nagate('SettingsScreen.js')}}>
+        onPress={()=>{alert("Settings Screen")}}>
           <Image
             source={require('../../assets/settings.png')}
             style={styles.ImageIconStyle}

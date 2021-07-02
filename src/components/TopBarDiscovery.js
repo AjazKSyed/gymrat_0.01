@@ -6,7 +6,9 @@ class TopBarDiscovery extends React.Component {
     return (
       <View style={styles.container}>
         <Text style={styles.header}>Discovery</Text>
-        <TouchableOpacity style={styles.notificationStyle} activeOpacity={0.5}>
+        <TouchableOpacity style={styles.notificationStyle} activeOpacity={0.5}
+                    onPress={()=>{alert("Checking Notification")}}
+                    >
           <Image
             source={require('../../assets/notification.png')}
             style={styles.ImageIconStyle}

@@ -23,7 +23,7 @@ export default function App() {
             paddingTop: 25,
             paddingBottom: 25,
           },
-          activeTintColor: "#8D68AD",
+          activeTintColor: "#525F7F",
           inactiveTintColor: "#9B9B9B",
         }}>
 
