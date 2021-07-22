@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { StyleSheet, Text, View, Image, Button, TouchableOpacity } from 'react-native';
 import Constants from 'expo-constants';
 import TopBarProfile from '../components/TopBarProfile';
-import APICalls from '../components/APICalls';
+import User from '../components/User';
 
 const ProfileScreen = ({ navigation }) => {
   return (
@@ -10,7 +10,7 @@ const ProfileScreen = ({ navigation }) => {
       <View style={styles.statusBar} />
       <TopBarProfile navigation="SettingsScreen"></TopBarProfile>
       <View style={styles.UserDetails}>
-        <APICalls></APICalls>
+        <User></User>
       </View>
     </View>
   );
@@ -26,7 +26,9 @@ const styles = StyleSheet.create({
     backgroundColor: '#F0F0F0',
   },
   UserDetails: {
-    marginHorizontal: 28,
+    flex: 1,
+
+    marginHorizontal: 25,
     alignContent: 'center',
   },
 

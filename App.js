@@ -4,7 +4,6 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { NavigationContainer } from '@react-navigation/native';
 import ProfileScreen from './src/screens/ProfileScreen'
 import DiscoveryScreen from './src/screens/DiscoveryScreen'
-import PassionsScreen from './src/screens/PassionsScreen'
 import MischeifScreen from './src/screens/MischeifScreen'
 
 
@@ -47,18 +46,6 @@ export default function App() {
                   return(<Image style={{ width: 40, height: 40 }} source={require('./assets/Discovery-active.png')}/>);
                 } else {
                   return(<Image style={{ width: 40, height: 40 }} source={require('./assets/Discovery-inactive.png')}/>);
-                }
-            },
-          }}
-        />
-        <Tab.Screen name="Passions"
-          component={PassionsScreen}
-          options={{
-            tabBarIcon: ({focused}) => {
-                if(focused) {
-                  return(<Image style={{ width: 40, height: 40 }} source={require('./assets/Passions-active.png')}/>);
-                } else {
-                  return(<Image style={{ width: 40, height: 40 }} source={require('./assets/Passions-inactive.png')}/>);
                 }
             },
           }}

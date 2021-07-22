@@ -27,8 +27,7 @@ const styles = StyleSheet.create({
   },
   Details: {
     flex: 1,
-    alignContent: 'center',
-  },
+   },
 
 });
 
